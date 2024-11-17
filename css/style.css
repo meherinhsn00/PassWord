@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+ }
+ ol,ul{
+    list-style: none;
+ }
+ 
+ h1,h2,h3,h4,h5,h6,p,span,ol,ul{
+      margin: 0;
+      padding: 0;
+ }
+body{
+    font-family: "arial";
+    background-color: aliceblue;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.passwordFiled{
+
+    position: relative;
+}
+
+
+
+.passwordFiled input{
+    width: 450px;
+    height: 50px ;
+    border-radius: 25px;
+    border: none;
+    border: 1px solid #888;
+    padding: 0 30px ;
+}
+   
+.passwordFiled button{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+  
+}
+.btn:hover{
+    background-color:beige;
+    color: black;
+    border: 1px solid green;
+
+}
